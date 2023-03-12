@@ -58,7 +58,8 @@ All of this is critical to make sure osTicket will work. To make sure this step 
 
 10.	Now we need to add custom permissions. Click on Add and type ‘everyone’ in the ‘Enter the object name’ area and click on Check Names and press OK. Check the Full control and Modify checkboxes and press OK. Then Apply and OK.
 
-11.	Return back to the web browser with osTicket on it and click Continue. You can then name your own Helpdesk, give it a custom email, and fill out information as you would want in the Admin User section with an email address and password that you will need to log into the software. ![](https://i.imgur.com/M2F2pRV.png)
+11.	Return back to the web browser with osTicket on it and click Continue. You can then name your own Helpdesk, give it a custom email, and fill out information as you would want in the Admin User section with an email address and password that you will need to log into the software. 
+![](https://i.imgur.com/M2F2pRV.png)
 
 12.	Go back to the installation files and click on the HeidiSQL_12.3.0.6589_Setup.exe file which will show a link which will need to be visited in order to download the program. Upon downloading, install the HeidiSQL_12.3.0.6589_Setup file, and launch HeidiSQL.
 
