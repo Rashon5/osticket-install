@@ -3,7 +3,7 @@
 # osTicket: Installation & Virtual Machine Creation
 This tutorial will show how to create the virtual machine through Microsoft Azure which will house the help desk ticketing software, osTicket
 
-<h2>Video Demonstration</h2>
+## Video Demonstration
 [![osTicket](http://i.imgur.com/rnBht8B.png)](http://youtu.be/FpdC_98Ekgs)
 <br/>
 YouTube: osTicket Backdrop and Installation
