@@ -15,22 +15,22 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 
 ## Installation Steps
 ### Chapter 1: Creating the Microsoft Azure Virtual Machine
-1.	Go to https://portal.azure.com/ and search/click on Resource Groups, then click on Create resource group.
+1.	Go to https://portal.azure.com/ and search/click on <b>Resource Groups</b>, then click on <b>Create resource group</b>.
 
-2.	Give your resource group a name, for this we will call it ‘osTicket.’ Click on Review + create to create the resource group. ![](https://i.imgur.com/RS42CI5.png) 
+2.	Give your resource group a name, for this we will call it ‘osTicket.’ Click on <b>Review + create</b> to create the resource group. ![](https://i.imgur.com/RS42CI5.png) 
 
 3.	Check your resource group to see that it is there. ![](https://i.imgur.com/prG54jp.png)
 
-4.	Search for Virtual Machines in the search bar and click on it, then click on Create and in the dropdown menu, click on Azure virtual machine to setup your virtual machine.
+4.	Search for <b>Virtual Machines</b> in the search bar and click on it, then click on Create and in the dropdown menu, click on <b>Azure virtual machine</b> to setup your virtual machine.
 
-5.	Give the virtual machine a name, here it is vm-osticket. Give it a region closest to where you are and in the Image dropdown, click on Windows 10 Pro, version 21H2 – x64 Gen2 (free services eligible) ![](https://i.imgur.com/VUsmK9w.png)
+5.	Give the virtual machine a name, here it is <b>vm-osticket</b>. Give it a region closest to where you are and in the <b>Image</b> dropdown, click on <b>Windows 10 Pro, version 21H2 – x64 Gen2 (free services eligible)</b> ![](https://i.imgur.com/VUsmK9w.png)
 
-6.	Scroll down to Size and in the drop down, select Standard D4s_v3 – 4vcpus, 16 GiB memory ($140.16/month). This will give your virtual machine enough cores and RAM to be able to run it responsibly. Of course, be sure to delete the virtual machine and resource group afterwards to prevent accruing cost of your free credits. ![](https://i.imgur.com/y4F5EuX.png)
+6.	Scroll down to <b>Size</b> and in the drop down, select <b>Standard D4s_v3 – 4vcpus, 16 GiB memory ($140.16/month)</b>. This will give your virtual machine enough cores and RAM to be able to run it responsibly. Of course, be sure to delete the virtual machine and resource group afterwards to prevent accruing cost of your free credits. ![](https://i.imgur.com/y4F5EuX.png)
 
-7.	Under Administrator account, enter a Username and Password (make sure you remember them) and under Licensing, click the checkmark, and click Next : Disks >  and then Next : Networking >. 
+7.	Under <b>Administrator account</b>, enter a Username and Password (make sure you remember them) and under <b>Licensing</b>, click the checkmark, and click <b>Next : Disks ></b>  and then <b>Next : Networking ></b>. 
 ![](https://i.imgur.com/ucY0LFK.png)
 
-8.	Check out the list under Networking then click on Review + create, and click on Create on the ensuing page. The virtual machine will take about a minute to deploy. ![](https://i.imgur.com/Qdu0Lyv.png)
+8.	Check out the list under Networking then click on <b>Review + create</b>, and click on <b>Create</b> on the ensuing page. The virtual machine will take about a minute to deploy. ![](https://i.imgur.com/Qdu0Lyv.png)
 
 ### Chapter 2: Configuring the VM for osTicket
 1.	Once the virtual machine has deployed, click on the Go to resource button to see all of the virtual machine’s information ![](https://i.imgur.com/ceogmYP.png)
