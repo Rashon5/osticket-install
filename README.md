@@ -25,7 +25,7 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 ![](https://i.imgur.com/ucY0LFK.png)
 8.	Check out the list under Networking then click on Review + create, and click on Create on the ensuing page. The virtual machine will take about a minute to deploy. ![](https://i.imgur.com/Qdu0Lyv.png)
 
-Chapter 2: Configuring the VM for osTicket
+###Chapter 2: Configuring the VM for osTicket
 1.	Once the virtual machine has deployed, click on the Go to resource button to see all of the virtual machine’s information ![](https://i.imgur.com/ceogmYP.png)
 2.	Now we’re going to remote desktop into the VM. Copy the Public IP address, which in this case is shown as 74.235.122.69. It will be unique to you once you create yours. ![](https://i.imgur.com/6r8J3pm.png)
 3.	Go to the Start menu and open Remote Desktop Connection. Paste the IP and click on Connect. Upon connecting, enter the Username and Password that you created when creating the VM and press OK. Then press Yes to bypass security authentication and the VM will launch. ![](https://i.imgur.com/2KmcenT.png) ![](https://i.imgur.com/Xs5HkQM.png) ![](https://i.imgur.com/XY9nBAk.png)
@@ -34,7 +34,7 @@ Chapter 2: Configuring the VM for osTicket
 All of this is critical to make sure osTicket will work. To make sure this step worked, type 127.0.0.1 in Microsoft Edge’s address bar and it should show Internet Information Services of Windows. If the page cannot load, this step was not done correctly.
 ![](https://i.imgur.com/cWs3XoE.png) ![](https://i.imgur.com/WgH8z7U.png )
 
-Chapter 3: Installing osTicket
+###Chapter 3: Installing osTicket
 1.	Go to this Google Drive link https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 and download all the files individually or as a zip file.
 2.	Install PHPManagerForIIS_V1.5.0 and rewrite_amd64_en-US, then go to C:\ and create a folder called PHP. Extract the php-7.3.8-nts-Win32-VC15-x86 zip file into C:\PHP.
 3.	Install VC_redist.x86 and mysql-5.5.62-win32. With the latter, select the Typical installation. After the install is finished, click Finish while Launch the MySQL Instance Configuration Wizard is checked. When that popups up, advance with it and select the Standard Configuration. ![](https://i.imgur.com/vL0wv4R.png)
