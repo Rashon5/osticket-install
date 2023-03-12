@@ -13,8 +13,8 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 +	Windows 10 (Operating System)
 
 
-Installation Steps
-Chapter 1: Creating the Microsoft Azure Virtual Machine
+## Installation Steps
+### Chapter 1: Creating the Microsoft Azure Virtual Machine
 1.	Go to https://portal.azure.com/ and search/click on Resource Groups, then click on Create resource group.
 2.	Give your resource group a name, for this we will call it ‘osTicket.’ Click on Review + create to create the resource group. https://i.imgur.com/RS42CI5.png
 3.	Check your resource group to see that it is there. https://i.imgur.com/prG54jp.png
