@@ -43,6 +43,7 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 
 5.	While doing step 4, open Control Panel, click on Programs, then click on <b>Turn Windows features on or Off</b> under Programs and Features. Enable the block check beside <b>Internet Information Services</b>, expand it, and make sure block checks are enabled beside <b>Web Management Tools</b> and <b>World Wide Web Services</b>. Expand <b>World Wide Web Services</b> and expand <b>Application Development Features</b>, and enable the checkmark next to CGI.
 All of this is critical to make sure osTicket will work. To make sure this step work, type 127.0.0.1 in Microsoft Edge’s address bar and it should show Internet Information Services of Windows. If the page cannot load, this step was not done correctly.
+
 ![](https://i.imgur.com/cWs3XoE.png) ![](https://i.imgur.com/WgH8z7U.png )
 
 ### Chapter 3: Installing osTicket
