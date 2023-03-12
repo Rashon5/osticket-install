@@ -35,7 +35,7 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 ### Chapter 2: Configuring the VM for osTicket
 1.	Once the virtual machine has deployed, click on the Go to resource button to see all of the virtual machine’s information ![](https://i.imgur.com/ceogmYP.png)
 
-2.	Now we’re going to remote desktop into the VM. Copy the Public IP address, which in this case is shown as 74.235.122.69. It will be unique to you once you create yours. ![](https://i.imgur.com/6r8J3pm.png)
+2.	Now we’re going to remote desktop into the VM. Copy the Public IP address, which in this case is shown as 74.235.122.69. It will be unique to you once you create yours. ![](https://i.imgur.com/8HjBBdg.png)
 
 3.	Go to the Start menu and open Remote Desktop Connection. Paste the IP and click on Connect. Upon connecting, enter the Username and Password that you created when creating the VM and press OK. Then press Yes to bypass security authentication and the VM will launch. ![](https://i.imgur.com/2KmcenT.png) ![](https://i.imgur.com/Xs5HkQM.png) ![](https://i.imgur.com/XY9nBAk.png)
 
@@ -85,4 +85,4 @@ Go back to the web browser and type ‘osTicket’ under MySQL Database.
 16.	Upon going back to Microsoft Edge, the osTicket main page should look something like the picture below, congrats, you’ve set up osTicket! ![](https://i.imgur.com/AF6VwUs.png)
 
 
-Click for Part 2: osTicket Configuration – Creating Agents and Clients
+<a href="https://github.com/Rashon5/osticket-config">Click for Part 2: osTicket Configuration – Creating Agents and Clients</a>
