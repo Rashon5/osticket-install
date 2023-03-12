@@ -3,6 +3,7 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 
 <h2>Video Demonstration</h2>
 <a href="https://www.youtube.com/watch?v=FpdC_98Ekgs"></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FpdC_98Ekgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 YouTube: osTicket Backdrop and Installation
 Environments and Technologies Used
