@@ -42,7 +42,7 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 4.	Upon logging into the VM, enable network discoverability by pressing Yes. After that, open Microsoft Edge.
 
 5.	While doing step 4, open Control Panel, click on Programs, then click on Turn Windows features on or Off under Programs and Features. Enable the block check beside Internet Information Services, expand it, and make sure block checks are enabled beside Web Management Tools and World Wide Web Services. Expand World Wide Web Services and expand Application Development Features, and enable the checkmark next to CGI.
-All of this is critical to make sure osTicket will work. To make sure this step worked, type 127.0.0.1 in Microsoft Edge’s address bar and it should show Internet Information Services of Windows. If the page cannot load, this step was not done correctly.
+All of this is critical to make sure osTicket will work. To make sure this step work, type 127.0.0.1 in Microsoft Edge’s address bar and it should show Internet Information Services of Windows. If the page cannot load, this step was not done correctly.
 ![](https://i.imgur.com/cWs3XoE.png) ![](https://i.imgur.com/WgH8z7U.png )
 
 ### Chapter 3: Installing osTicket
