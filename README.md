@@ -48,6 +48,7 @@ All of this is critical to make sure osTicket will work. To make sure this step 
 6.	Go back to the installed files and open the .zip file of osTicket v.1.15.8. Copy the upload folder to C:\inetpub\wwwroot. After it is copied, rename the folder to osTicket. ![](https://i.imgur.com/YBVY6Qi.png)
 
 7.	Return to IIS and press Restart under Actions at the right of the window. At the left under Connection, expand Sites and expand Default Web Site to view and click the osTicket folder. On the right side of the window under Actions, click on Browse '\*'.80 (http) to open the localhost osTicket webpage.
+
 ![](https://i.imgur.com/2tHXfz8.png) 
 ![](https://i.imgur.com/DVUpSoP.png)
 
