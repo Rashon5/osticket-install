@@ -1,13 +1,17 @@
 <h1>osTicket: Installation & Virtual Machine Creation</h1>
-
 This tutorial will show how to create the virtual machine through Microsoft Azure which will house the help desk ticketing software, osTicket
-Video Demonstration
+
+<h2>Video Demonstration</h2?
+<a href="https://www.youtube.com/watch?v=FpdC_98Ekgs">
+
 YouTube: osTicket Backdrop and Installation
 Environments and Technologies Used
 •	Microsoft Azure
 •	Remote Desktop Connection
 •	Internet Information Services (IIS)
 •	Windows 10 (Operating System)
+
+
 Installation Steps
 Chapter 1: Creating the Microsoft Azure Virtual Machine
 1.	Go to https://portal.azure.com/ and search/click on Resource Groups, then click on Create resource group.
