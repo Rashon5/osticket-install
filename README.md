@@ -21,8 +21,9 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 4.	Search for Virtual Machines in the search bar and click on it, then click on Create and in the dropdown menu, click on Azure virtual machine to setup your virtual machine.
 5.	Give the virtual machine a name, here it is vm-osticket. Give it a region closest to where you are and in the Image dropdown, click on Windows 10 Pro, version 21H2 – x64 Gen2 (free services eligible) ![](https://i.imgur.com/VUsmK9w.png)
 6.	Scroll down to Size and in the drop down, select Standard D4s_v3 – 4vcpus, 16 GiB memory ($140.16/month). This will give your virtual machine enough cores and RAM to be able to run it responsibly. Of course, be sure to delete the virtual machine and resource group afterwards to prevent accruing cost of your free credits. ![](https://i.imgur.com/y4F5EuX.png)
-7.	Under Administrator account, enter a Username and Password (make sure you remember them) and under Licensing, click the checkmark, and click Next : Disks >  and then Next : Networking >. ![](https://i.imgur.com/ucY0LFK.png)
-8.	Check out the list under Networking then click on Review + create, and click on Create on the ensuing page. The virtual machine will take about a minute to deploy. ![](https://i.imgur.com/Qdu0Lyv.png)
+7.	Under Administrator account, enter a Username and Password (make sure you remember them) and under Licensing, click the checkmark, and click Next : Disks >  and then Next : Networking >. 
+8. ![](https://i.imgur.com/ucY0LFK.png)
+9.	Check out the list under Networking then click on Review + create, and click on Create on the ensuing page. The virtual machine will take about a minute to deploy. ![](https://i.imgur.com/Qdu0Lyv.png)
 
 Chapter 2: Configuring the VM for osTicket
 1.	Once the virtual machine has deployed, click on the Go to resource button to see all of the virtual machine’s information ![](https://i.imgur.com/ceogmYP.png)
@@ -44,10 +45,14 @@ Chapter 3: Installing osTicket
 8.	Return to IIS and open the PHP Manager. A few extensions need to be activated in order for osTicket to work properly. Under PHP Extensions, click on Enable or disable an extension. In the next window, enable php_imap.dll, php_inet.dll, and php_opcache.dll. Upon refreshing the internet browser page, a few more checkmarks appear.
 9.	Return to C:\inetpub\wwwroot\osTicket and scroll down for a file called ost-sampleconfig.php. Right click on it and rename it to ost-config.php. After that, right click on the file and click on Properties. Go to the Security tab click on Advanced. Click on Disable inheritance and then Remove all inherited permissions from this object.
 10.	Now we need to add custom permissions. Click on Add and type ‘everyone’ in the ‘Enter the object name’ area and click on Check Names and press OK. Check the Full control and Modify checkboxes and press OK. Then Apply and OK.
-11.	Return back to the web browser with osTicket on it and click Continue. You can then name your own Helpdesk, give it a custom email, and fill out information as you would want in the Admin User section with an email address and password that you will need to log into the software. https://i.imgur.com/M2F2pRV.png
+11.	Return back to the web browser with osTicket on it and click Continue. You can then name your own Helpdesk, give it a custom email, and fill out information as you would want in the Admin User section with an email address and password that you will need to log into the software. ![](https://i.imgur.com/M2F2pRV.png)
 12.	Go back to the installation files and click on the HeidiSQL_12.3.0.6589_Setup.exe file which will show a link which will need to be visited in order to download the program. Upon downloading, install the HeidiSQL_12.3.0.6589_Setup file, and launch HeidiSQL.
-13.	Upon launching HeidiSQL, click on New and enter the same password from the previous MySQL installation and click Open. Return to the web browser and enter the same MySQL Username and Password, which again is ‘root’ and your entered password. https://i.imgur.com/LWZipba.png https://i.imgur.com/1WnetbU.png
-14.	Return to HeidiSQL and right-click Unnamed on the left side, hover over Create new and click on Database. https://i.imgur.com/PczAPr0.png Type in ‘osTicket’ under Name and click OK. https://i.imgur.com/UgfOm2k.png Go back to the web browser and type ‘osTicket’ under MySQL Database.
-15.	You did it! Click on Install Now. To clean everything up, return to C:\inetpub\wwwroot\osTicket and delete the setup folder. Return to the ost-config.php file and edit the permissions to remove the checkmarks from Full control and Modify. https://i.imgur.com/UypVMRq.png
-16.	Upon going back to Microsoft Edge, the osTicket main page should look something like the picture below, congrats, you’ve set up osTicket! https://i.imgur.com/AF6VwUs.png
+13.	Upon launching HeidiSQL, click on New and enter the same password from the previous MySQL installation and click Open. Return to the web browser and enter the same MySQL Username and Password, which again is ‘root’ and your entered password. ![](https://i.imgur.com/LWZipba.png) ![](https://i.imgur.com/1WnetbU.png)
+14.	Return to HeidiSQL and right-click Unnamed on the left side, hover over Create new and click on Database. https://i.imgur.com/PczAPr0.png Type in ‘osTicket’ under Name and click OK. 
+![](https://i.imgur.com/UgfOm2k.png)
+Go back to the web browser and type ‘osTicket’ under MySQL Database.
+15.	You did it! Click on Install Now. To clean everything up, return to C:\inetpub\wwwroot\osTicket and delete the setup folder. Return to the ost-config.php file and edit the permissions to remove the checkmarks from Full control and Modify. ![](https://i.imgur.com/UypVMRq.png)
+16.	Upon going back to Microsoft Edge, the osTicket main page should look something like the picture below, congrats, you’ve set up osTicket! ![](https://i.imgur.com/AF6VwUs.png)
+
+
 Click for Part 2: osTicket Configuration – Creating Agents and Clients
