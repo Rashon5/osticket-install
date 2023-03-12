@@ -22,8 +22,8 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 5.	Give the virtual machine a name, here it is vm-osticket. Give it a region closest to where you are and in the Image dropdown, click on Windows 10 Pro, version 21H2 – x64 Gen2 (free services eligible) ![](https://i.imgur.com/VUsmK9w.png)
 6.	Scroll down to Size and in the drop down, select Standard D4s_v3 – 4vcpus, 16 GiB memory ($140.16/month). This will give your virtual machine enough cores and RAM to be able to run it responsibly. Of course, be sure to delete the virtual machine and resource group afterwards to prevent accruing cost of your free credits. ![](https://i.imgur.com/y4F5EuX.png)
 7.	Under Administrator account, enter a Username and Password (make sure you remember them) and under Licensing, click the checkmark, and click Next : Disks >  and then Next : Networking >. 
-8. ![](https://i.imgur.com/ucY0LFK.png)
-9.	Check out the list under Networking then click on Review + create, and click on Create on the ensuing page. The virtual machine will take about a minute to deploy. ![](https://i.imgur.com/Qdu0Lyv.png)
+![](https://i.imgur.com/ucY0LFK.png)
+8.	Check out the list under Networking then click on Review + create, and click on Create on the ensuing page. The virtual machine will take about a minute to deploy. ![](https://i.imgur.com/Qdu0Lyv.png)
 
 Chapter 2: Configuring the VM for osTicket
 1.	Once the virtual machine has deployed, click on the Go to resource button to see all of the virtual machine’s information ![](https://i.imgur.com/ceogmYP.png)
