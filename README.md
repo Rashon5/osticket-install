@@ -7,10 +7,10 @@ This tutorial will show how to create the virtual machine through Microsoft Azur
 [![osTicket](http://i.imgur.com/rnBht8B.png)](http://youtu.be/FpdC_98Ekgs)
 
 ### Environments and Technologies Used
-• [Microsoft Azure]
-• [Remote Desktop Connection]
-•	[Internet Information Services (IIS)]
-•	[Windows 10 (Operating System)]
++ Microsoft Azure
++ Remote Desktop Connection
++	Internet Information Services (IIS)
++	Windows 10 (Operating System)
 
 
 Installation Steps
